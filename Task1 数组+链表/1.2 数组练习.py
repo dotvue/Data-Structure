@@ -1,4 +1,6 @@
 # Three Sum（求三数之和）
+# 英文版：https://leetcode.com/problems/3sum/
+# 中文版：https://leetcode-cn.com/problems/3sum/
 
 class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
@@ -9,12 +11,16 @@ class Solution:
         return list(map(list, r))
 
 # Majority Element（求众数）
+# 英文版：https://leetcode.com/problems/majority-element/
+# 中文版：https://leetcode-cn.com/problems/majority-element/
 
 class Solution:
     def majorityElement(self, nums: List[int]) -> int:
         return sorted(nums)[len(nums) // 2]
 
 # Missing Positive（求缺失的第一个正数）[作为可选]
+# 英文版：https://leetcode.com/problems/first-missing-positive/
+# 中文版：https://leetcode-cn.com/problems/first-missing-positive/
 
 class Solution:
     def firstMissingPositive(self, nums: List[int]) -> int:
